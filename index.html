@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машины</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        table {
+            /* Линия между ячейками т.д */
+            border-collapse: collapse;
+            min-width: 900px;
+        }
+
+        .total-td {
+            /* выравнивание текста по правому краю */
+            text-align: right;
+            padding-right: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table class="car">
+        <caption>Автомобили</caption>
+        <tr>
+            <th>Номер п/п</th>
+            <th>Марка</th>
+            <th>Модель</th>
+            <th>Стоимость руб </th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Тойота</td>
+            <td>Corolla</td>
+            <td>1900000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Тойота</td>
+            <td>Camry</td>
+            <td>2400000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Тойота</td>
+            <td>RAV 4</td>
+            <td>2600000</td>
+        </tr>
+        <tr>
+            <td> Итого</td>
+            <td class="total-td" colspan="5">6900000</td>
+        </tr>
+</body>
+
+</html>
